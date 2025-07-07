@@ -73,3 +73,15 @@ main {
     cursor: pointer;
     color: #794CFF;
 }
+
+/* ----------home------------- */
+
+.img-bg {
+    display: flex;
+    justify-content: center;
+}
+
+.img-bg img{
+    object-fit: cover;
+    max-width: 920px;
+}
