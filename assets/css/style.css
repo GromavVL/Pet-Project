@@ -1,6 +1,75 @@
 /*-------------- Общие стили -------------*/
 * {
     box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
 }
 
-/*---------------------------------------*/
+body {
+    font-size: 24px;
+}
+
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* ----------------header----------------- */
+
+.header-home {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    max-width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border: 1px solid;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: 900;
+    padding: 15px;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+}
+
+.navigation-element {
+    /* padding: 0 20px; */
+}
+
+.navigation-element:hover {
+    cursor: pointer;
+    color: #794CFF;
+}
+
+.login {
+    display: flex;
+}
+
+.login-a {  
+    display: block;
+    color: #794CFF;
+    background-color: #ECE5FF;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.login-a:hover {
+    box-shadow: 0 0 8px;
+}
+
+.login-ap {
+    background-color: white;
+    padding: 15px;
+}
+
+.login-ap:hover {
+    cursor: pointer;
+    color: #794CFF;
+}
