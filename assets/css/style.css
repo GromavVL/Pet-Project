@@ -23,7 +23,6 @@ main {
     max-width: 1500px;
     margin: 0 auto;
     flex-wrap: wrap;
-    border: 1px solid;
 }
 
 .logo {
@@ -84,4 +83,47 @@ main {
 .img-bg img{
     object-fit: cover;
     max-width: 920px;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.text-p {
+    background-color: #81C43B;
+    color: white;
+    border-radius: 100px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.discount-p {
+    background-color: #F2F9EB;
+    border-radius: 100px;
+    padding: 5px 20px;
+    font-size: 16px;
+    position: absolute;
+    left: 52.5%;
+    z-index: -1;
+}
+
+.team-everyone {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.team-p {
+    
 }
