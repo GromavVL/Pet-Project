@@ -7,6 +7,7 @@
 
 body {
     font-size: 24px;
+    font-family: "Inter", sans-serif;
 }
 
 main {
@@ -125,5 +126,7 @@ main {
 }
 
 .team-p {
-    
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E5A65;
 }
