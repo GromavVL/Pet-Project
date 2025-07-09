@@ -8,6 +8,7 @@
 body {
     font-size: 24px;
     font-family: "Inter", sans-serif;
+    background-color: #F0EBFA;
 }
 
 main {
@@ -85,33 +86,27 @@ main {
     object-fit: cover;
     max-width: 920px;
 }
-
+/* ------------------------ */
 .discount {
     display: flex;
-    justify-content: center;
-    position: relative;
+    align-items: center;
+    background-color: #F2F9EB;
+    border-radius: 100px;
+    padding: 5px 10px;
+    font-size: 16px;
 }
 
 .text-p {
     background-color: #81C43B;
     color: white;
     border-radius: 100px;
-    padding: 5px 15px;
-    font-size: 16px;
-    font-weight: 500;
-    overflow: hidden;
 }
 
 .discount-p {
-    background-color: #F2F9EB;
-    border-radius: 100px;
-    padding: 5px 20px;
-    font-size: 16px;
-    position: absolute;
-    left: 52.5%;
-    z-index: -1;
+    color: #2B2F38;
+    font-weight: 500;
 }
-
+/* --------------------------- */
 .team-everyone {
     display: flex;
     align-items: center;
@@ -123,10 +118,23 @@ main {
 .team-h1 {
     font-size: 64px;
     font-weight: 600;
+    color: #35414B;
 }
 
 .team-p {
     font-size: 16px;
     line-height: 24px;
     color: #4E5A65;
+}
+
+.team-input {
+    padding: 8px 16px;
+    border: 1px solid #E1E5EA;
+}
+
+.team-a {
+    display: block;
+    background-color: #794CFF;
+    color: white;
+    padding: 8px 16px;
 }
