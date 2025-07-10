@@ -79,6 +79,7 @@ main {
 .discount-info {
     display: grid;
     justify-items: center;
+    margin-top: 25px;
 }
 
 .discount {
@@ -161,4 +162,16 @@ main {
     max-width: 920px;
     box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.2);
     margin: 35px;
+}
+
+/* --------------sponsor------------ */
+
+.sponsor {
+    margin-top: 35px;
+}
+
+.sponsor-p {
+    color: #4E5A65;
+    font-size: 16px;
+    text-align: center;
 }
