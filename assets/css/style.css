@@ -82,9 +82,13 @@ main {
 }
 
 .discount {
-    display: grid;
-    /* justify-content: center; */
-    /* position: relative; */
+    display: flex;
+    align-items: center;
+    background-color: #F2F9EB;
+    border-radius: 100px;
+    padding: 5px 10px;
+    width: fit-content;
+    gap: 10px;
 }
 
 .text-p {
@@ -94,18 +98,14 @@ main {
     border-radius: 100px;
     font-size: 16px;
     font-weight: 500;
-    position: relative;
 }
 
 .discount-p {
-    background-color: #F2F9EB;
-    border-radius: 100px;
-    padding: 5px 20px;
+    color: #2D3A4A;
     font-size: 16px;
-    transform: translateX(93px);
-    position: absolute;
-    z-index: -1;
+    font-weight: 500;
 }
+
 
 .team-everyone {
     display: grid;
