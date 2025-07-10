@@ -165,7 +165,6 @@ main {
 }
 
 /* --------------sponsor------------ */
-
 .sponsor {
     margin-top: 35px;
 }
@@ -175,3 +174,13 @@ main {
     font-size: 16px;
     text-align: center;
 }
+
+.sponsor-info-p {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    padding: 25px;
+    margin-bottom: 35px;
+}
+
+/* ------------section-info----------- */
