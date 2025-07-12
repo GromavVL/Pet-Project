@@ -183,8 +183,9 @@ main {
 /* ------------section-info----------- */
 
 .section-info {
-    display: grid;
-    justify-items: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-cart {
@@ -202,7 +203,7 @@ main {
     width: 300px;
 }
 
-
 .section-info img {
-    width: 650px;
+    object-fit: cover;
+    width: 657px;
 }
