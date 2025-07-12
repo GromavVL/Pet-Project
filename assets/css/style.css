@@ -181,3 +181,28 @@ main {
 }
 
 /* ------------section-info----------- */
+
+.section-info {
+    display: grid;
+    justify-items: end;
+}
+
+.info-cart {
+    border: 1px solid;
+    padding: 15px;
+}
+
+.info-p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.info-p-text {
+    width: 300px;
+}
+
+
+.section-info img {
+    width: 650px;
+}
