@@ -186,6 +186,7 @@ main {
     display: flex;
     padding: 50px;
     gap: 80px;
+    background-color: #FBFAFE;
 }
 
 
@@ -212,4 +213,9 @@ main {
 .section-info img {
     object-fit: cover;
     width: 657px;
+}
+
+.info-cart:nth-of-type(1) {
+    background-color: #F6F3FC;
+    border-left: 8px solid #794CFF;
 }
