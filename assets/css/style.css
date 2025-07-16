@@ -8,6 +8,7 @@
 body {
     font-size: 16px;
     font-family: "Inter", sans-serif;
+    color: #2D3A4A;
 }
 
 main {
@@ -187,6 +188,8 @@ main {
     padding: 50px;
     gap: 80px;
     background-color: #FBFAFE;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -204,10 +207,12 @@ main {
     font-size: 18px;
     font-weight: 600;
     padding: 10px 0;
+    color: #35414B;
 }
 
 .info-p-text {
     width: 300px;
+    color: #4E5A65;
 }
 
 .section-info img {
@@ -219,3 +224,74 @@ main {
     background-color: #F6F3FC;
     border-left: 8px solid #794CFF;
 }
+
+/* -------------statistics-------------- */
+
+.section-card {
+    margin: 100px 0;
+}
+
+.h {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px 0;
+}
+
+.section-card-h2 {
+    margin: 70px 0;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cart {
+    margin: 40px;
+    padding: 15px;
+}
+
+.cart-text1 {
+    font-weight: 600;
+}
+
+.cart-text2 {
+    width: 306px;
+    color: #4E5A65;
+}
+
+
+/*-------statistics-------- */
+
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: #FBFAFE;
+    justify-items: center;
+    padding: 20px 0;
+}
+
+.statistics-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    width: 350px;
+    margin: 10px 0;
+}
+
+.statistics-p {
+    font-weight: 400;
+    color: #4E5A65;
+    width: 413px;
+    padding: 20px 0;
+}
+
+.statistics-a {
+    display: inline-block;
+    background-color: #796EFF;
+    padding: 18px 21px;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* ------------working-user---------- */
