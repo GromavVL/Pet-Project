@@ -294,7 +294,7 @@ main {
     margin: 10px 0;
 }
 
-/* ------------working-user---------- */
+/* ------------working-user-------Обязятельно переделать!!!!--- */ 
 
 .working-user {
     /* display: flex;
@@ -331,3 +331,55 @@ main {
     font-weight: 600;
     padding: 10px 0;
 }
+
+.use {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 20px; */
+    justify-items: center;
+    align-items: start;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.user {
+    display: flex;
+    padding: 15px 0;
+    gap: 15px;
+}
+
+.text-user {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.user:nth-of-type(1) {
+    border-top: 4px solid #35414B;
+    border-radius: 3px;
+}
+
+
+.download {
+    display: flex;
+    background-color: #796EFF;
+    padding: 64px 80px;
+    width: 1100px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-p {
+    width: 423px;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.download-user {
+    display: flex;
+    justify-content: center;
+}
+
+
