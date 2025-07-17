@@ -405,10 +405,30 @@ main {
 
 .company-img {
     margin-left: 75px;
-    
 }
 
 .company-img img{
     padding: 10px 0;
 }
 
+/*--------------footer-home------------*/
+
+.footer-home {
+    display: flex;
+    background-color: #1D2830;
+    border-top: 1px solid #353535;
+    padding: 20px 182px;
+    justify-content: space-between;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-p {
+    color: #D9DBE1;
+}
+
+.footer-img img{
+    margin-right: 10px;
+}
