@@ -383,3 +383,32 @@ main {
 }
 
 
+/* ----------------company-info------------- */
+.company-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #1D2830;
+    padding: 80px 182px;
+    margin-top: 50px;
+}
+
+.company {
+    color: white;
+}
+
+.company-text {
+    padding: 10px 0;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+.company-img {
+    margin-left: 75px;
+    
+}
+
+.company-img img{
+    padding: 10px 0;
+}
+
